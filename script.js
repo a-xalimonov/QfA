@@ -122,7 +122,8 @@ function update() {
         }
     })
     if (crew === 0) {
-        this.add.sprite(500, 100, 'gameover')
+        this.add.sprite(500, 300, 'gameover')
+        .setDepth(1)
     }
     
     //Анимация корабля
